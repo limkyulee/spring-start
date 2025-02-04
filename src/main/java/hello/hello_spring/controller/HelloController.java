@@ -28,6 +28,7 @@ public class HelloController {
         return "hello" + name;
     }
 
+//   이렇게 json 방식으로 작업하는 것이 일반적이다.
     @GetMapping("hello-api")
     @ResponseBody
     public Hello helloApi(@RequestParam("name") String name) {
@@ -38,7 +39,8 @@ public class HelloController {
 
     static class Hello{
         private String name;
-
+//      ctrl + N > Getter Setter 자동 생성 단축키.
+//      Getter Setter > Java Bean 표준.
         public String getName() {
             return name;
         }
