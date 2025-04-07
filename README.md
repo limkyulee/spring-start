@@ -1,4 +1,4 @@
-# Study What is Spring
+# Learn what Spring is
 
 실제 동작하는 웹 애플리케이션 구현을 통해 spring 핵심 사이클 경험
 
